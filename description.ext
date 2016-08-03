@@ -1,0 +1,37 @@
+author="XiviD";
+OnLoadName = "Guard the VIP";
+onLoadIntro="Der UN-Oberst hat einige Aufgaben in der Region Kunduz zu erledigen. Die Gruppe Adler hat den Auftrag Ihn vor allen möglichen Gefahren zu schützen notfalls mit dem Einsatz des Lebens...";
+onLoadIntroTime=false;
+onLoadMission="Der UN-Oberst hat einige Aufgaben in der Region Kunduz zu erledigen. Die Gruppe Adler hat den Auftrag Ihn vor allen möglichen Gefahren zu schützen notfalls mit dem Einsatz des Lebens...";
+onLoadMissionTime=false;
+overviewPicture="pic\GTV.jpg"; //mission picture for loading screen only
+
+
+// description.ext settings for respawn
+///////////////////////////////////////////////////////////////////////////////////////////
+// NOT NECESSARY WHEN CSSA3 is active
+//respawn = "3";
+//respawndelay = 2;
+///////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include "CSSA3\CSSA3_header.hpp"
+
+//Mission and map
+disabledAI = 0;
+showCompass   = 1;
+showGPS       = 1;
+showMap       = 1;
+showWatch     = 1;
+enableItemsDropping = 0;
+enableDebugConsole = 1;
+
+// Mission Header
+class Header
+{
+  gameType = Team ;
+  minPlayers = 1;
+  maxPlayers = 31;
+};
+
+
