@@ -78,7 +78,7 @@ CUL_fn_Equip = {
 			//"respawn_west" setmarkeralphalocal 0;
 			{_x setMarkerColorLocal "ColorRed"; _x setMarkerTextLocal " VIP eliminieren"}forEach ["helimark","rogainmark","generalmark","dockmark"];
 			{_x setMarkerTextLocal " VIP eliminieren"}forEach ["helimark","rogainmark"];
-			player addUniform "U_BG_Guerilla2_3";
+			player addUniform "U_I_C_Soldier_Bandit_5_F";
 			player addVest "ARC_Common_OD_BandollierB_rgr";
 			player linkItem "ItemMap";
 			player linkItem "ItemCompass";
