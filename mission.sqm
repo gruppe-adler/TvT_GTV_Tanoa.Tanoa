@@ -335,7 +335,7 @@ class Mission
 			text=" Plantage besichtigen";
 			type="selector_selectable";
 			colorName="ColorBlue";
-			angle=28.102146;
+			angle=28.10214;
 			id=1;
 			atlOffset=0.00075483322;
 		};
@@ -422,7 +422,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={8752.2588,50.825897,9974.877};
-			angle=6.2777219;
+			angle=6.2777205;
 			class Attributes
 			{
 				condition="vip in thisList && vehicle vip == vip && isServer";
@@ -458,7 +458,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={8752.334,50.82597,9974.8857};
-			angle=1.5554897;
+			angle=1.5554893;
 			class Attributes
 			{
 				condition="vip in thisList && vehicle vip == vip && (side player) == blufor && isNil ""dockdone""";
@@ -497,7 +497,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={7047.6279,3.1132069,7766.8096};
-			angle=0.49047518;
+			angle=0.49047506;
 			class Attributes
 			{
 				condition="helidone";
@@ -1676,6 +1676,7 @@ class Mission
 					};
 					id=134;
 					type="O_Soldier_SL_F";
+					atlOffset=0.00017547607;
 				};
 				class Item1
 				{
@@ -1715,6 +1716,7 @@ class Mission
 					};
 					id=136;
 					type="O_medic_F";
+					atlOffset=-0.00012588501;
 				};
 				class Item3
 				{
@@ -1754,6 +1756,7 @@ class Mission
 					};
 					id=138;
 					type="O_Soldier_F";
+					atlOffset=0.00017929077;
 				};
 				class Item5
 				{
@@ -1779,6 +1782,7 @@ class Mission
 			{
 			};
 			id=133;
+			atlOffset=0.00017547607;
 		};
 		class Item50
 		{
@@ -3498,7 +3502,7 @@ class Mission
 			};
 			id=222;
 			type="RoadCone_L_F";
-			atlOffset=-2.4318695e-005;
+			atlOffset=1.001358e-005;
 		};
 		class Item99
 		{
@@ -4024,6 +4028,7 @@ class Mission
 			};
 			id=256;
 			type="C_Hatchback_01_F";
+			atlOffset=-0.00038528442;
 		};
 		class Item118
 		{
@@ -4057,6 +4062,7 @@ class Mission
 			};
 			id=261;
 			type="C_Offroad_02_unarmed_F_black";
+			atlOffset=-0.0034828186;
 		};
 		class Item120
 		{
@@ -4107,6 +4113,7 @@ class Mission
 			};
 			id=267;
 			type="B_GEN_Offroad_01_gen_F";
+			atlOffset=-8.392334e-005;
 		};
 		class Item123
 		{
@@ -4123,6 +4130,7 @@ class Mission
 			};
 			id=268;
 			type="RoadBarrier_F";
+			atlOffset=-0.00019836426;
 		};
 	};
 	class Connections
