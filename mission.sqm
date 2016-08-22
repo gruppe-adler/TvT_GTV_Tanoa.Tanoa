@@ -5,17 +5,17 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=438;
+		nextID=441;
 	};
 	class Camera
 	{
-		pos[]={6845.981,45.013351,7396.0718};
-		dir[]={0.68708187,-0.65328753,0.31840384};
-		up[]={0.59281701,0.75701892,0.27471825};
-		aside[]={0.42050958,3.9697625e-008,-0.90742189};
+		pos[]={8914.5117,225.65913,10225.994};
+		dir[]={0.50813609,-0.44119212,0.73986334};
+		up[]={0.24986163,0.89732277,0.36380544};
+		aside[]={0.8244099,5.052425e-008,-0.56620455};
 	};
 };
 binarizationWanted=0;
@@ -301,6 +301,8 @@ class AddonsMetaData
 		{
 			className="task_force_radio_items";
 			name="task_force_radio_items";
+			author="[TF]Nkey";
+			url="https://github.com/michail-nikolaev/task-force-arma-3-radio";
 		};
 		class Item31
 		{
@@ -441,7 +443,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=203;
+		items=206;
 		class Item0
 		{
 			dataType="Marker";
@@ -624,7 +626,7 @@ class Mission
 		{
 			dataType="Trigger";
 			position[]={4384.0962,3.5099461,8480.1563};
-			angle=0.4904747;
+			angle=0.49047467;
 			class Attributes
 			{
 				condition="helidone";
@@ -5779,8 +5781,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={7461.0781,198.02383,9713.3711};
-				angles[]={0.166447,4.2166328,0.037316564};
+				position[]={7460.188,197.96091,9713.6191};
+				angles[]={0.14562909,4.2166328,0.03731497};
 			};
 			side="Empty";
 			flags=4;
@@ -5789,7 +5791,6 @@ class Mission
 			};
 			id=354;
 			type="Land_Cliff_stone_big_F";
-			atlOffset=-0.0066833496;
 		};
 		class Item156
 		{
@@ -7080,6 +7081,55 @@ class Mission
 			};
 			id=436;
 			atlOffset=4.7683716e-007;
+		};
+		class Item203
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7462.3794,198.00752,9713.5801};
+				angles[]={0.18711622,1.0147979,6.2778587};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=438;
+			type="Land_Cliff_stone_big_F";
+		};
+		class Item204
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7463.7163,198.2157,9713.1113};
+				angles[]={0.18711622,5.4087205,0.098347396};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=439;
+			type="Land_Cliff_stone_big_F";
+		};
+		class Item205
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={7465.625,198.11058,9711.4736};
+				angles[]={0.17680447,4.2166328,0.098347396};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=440;
+			type="Land_Cliff_stone_big_F";
+			atlOffset=-0.59260559;
 		};
 	};
 	class Connections
