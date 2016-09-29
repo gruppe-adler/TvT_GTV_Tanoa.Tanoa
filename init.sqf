@@ -1,7 +1,7 @@
 
 
 [radio] execVM "ambient\sound.sqf";
-[radio2] execVM "ambient\sound2.sqf";
+
 
 enableSaving [false,false];
 
